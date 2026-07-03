@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- ================================================================
+     ARTICLE TEMPLATE
+     Duplicate this file to create a new blog article.
+     Replace all placeholder text marked with [ ] brackets.
+     ================================================================ -->
+<title>[Article Title] — Kiran Kumar Naik</title>
+<meta name="description" content="[One or two sentence summary of the article for search engines.]">
+<meta property="og:title" content="[Article Title]">
+<meta property="og:description" content="[Short social-share description.]">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="../favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<div class="reading-progress"></div>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="../index.html" class="brand"><span class="brand-mark">KK</span> Kiran Kumar</a>
+    <nav class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+      <a href="../services.html">Services</a>
+      <a href="../skills.html">Skills</a>
+      <a href="../portfolio.html">Portfolio</a>
+      <a href="../blog.html" class="active">Blog</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="../contact.html" class="btn btn-ghost btn-sm">Hire Me</a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="article-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="../blog.html">Blog</a> / <span class="cyan">Article</span></div>
+    <div class="eyebrow" style="margin-top:20px;">[Category]</div>
+    <h1>[Article Title Goes Here]</h1>
+    <div class="article-meta-row">
+      <span>By Kiran Kumar Naik</span>
+      <span>· [DD Mon YYYY]</span>
+      <span class="cat">· [Category]</span>
+      <span id="readingTime">· 0 min read</span>
+    </div>
+  </div>
+</section>
+
+<article class="article-body">
+
+  <p>[Opening paragraph — hook the reader and summarize what this article covers.]</p>
+
+  <h2>[First Subheading]</h2>
+  <p>[Body paragraph.]</p>
+
+  <blockquote>"[An optional pull-quote or key takeaway.]"</blockquote>
+
+  <h2>[Second Subheading]</h2>
+  <p>[Body paragraph.]</p>
+  <ul>
+    <li>[List item one]</li>
+    <li>[List item two]</li>
+    <li>[List item three]</li>
+  </ul>
+
+  <h2>[Third Subheading]</h2>
+  <p>[Body paragraph.]</p>
+
+  <h2>[Closing Subheading — e.g. "Final Thoughts"]</h2>
+  <p>[Closing paragraph that wraps up the article and invites discussion.]</p>
+
+</article>
+
+<div class="share-row">
+  <span>Share this article:</span>
+  <button class="btn btn-ghost btn-sm" data-share="twitter">Twitter</button>
+  <button class="btn btn-ghost btn-sm" data-share="linkedin">LinkedIn</button>
+  <button class="btn btn-ghost btn-sm" data-share="facebook">Facebook</button>
+  <button class="btn btn-ghost btn-sm" data-share="copy">Copy Link</button>
+</div>
+
+<section class="section related-grid">
+  <div class="section-head reveal">
+    <div class="eyebrow">Keep Reading</div>
+    <h2>Related Articles</h2>
+  </div>
+  <div class="grid-3">
+    <!-- Duplicate this block for each related article -->
+    <a href="../blog.html" class="glass post-card reveal" style="display:block;">
+      <div class="project-thumb post-thumb">📝</div>
+      <div class="post-body"><div class="post-meta"><span class="cat">[Category]</span><span>· 0 min read</span></div><h3>[Related Article Title]</h3></div>
+    </a>
+  </div>
+</section>
+
+<section class="section section-alt comments-section">
+  <div class="section-head reveal">
+    <div class="eyebrow">Discussion</div>
+    <h2>Comments</h2>
+  </div>
+
+  <form class="comment-form reveal" id="commentForm">
+    <input type="text" name="name" placeholder="Your name" required>
+    <textarea name="comment" placeholder="Share your thoughts..." required></textarea>
+    <button type="submit" class="btn btn-primary">Post Comment</button>
+  </form>
+
+  <div id="commentsList" class="mt-40">
+    <!-- Comments will be added here dynamically by script.js -->
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="../index.html" class="brand"><span class="brand-mark">KK</span> Kiran Kumar</a>
+        <p>Python Developer, Frontend Developer &amp; Cybersecurity Enthusiast. Senior Freelancer at Alpha Auron Pvt. Ltd.</p>
+        <div class="social-row">
+          <a class="social-btn" href="https://www.instagram.com/beyond_alphaauron" target="_blank" rel="noopener">IG</a>
+          <a class="social-btn" href="https://www.facebook.com/share/17Pz9aEwZ1/" target="_blank" rel="noopener">FB</a>
+          <a class="social-btn" href="https://www.linkedin.com/in/mude-kiran-kumar-naik-605b5a3ab" target="_blank" rel="noopener">in</a>
+        </div>
+      </div>
+      <div><h4>Explore</h4><ul class="footer-links"><li><a href="../about.html">About</a></li><li><a href="../services.html">Services</a></li><li><a href="../skills.html">Skills</a></li><li><a href="../portfolio.html">Portfolio</a></li></ul></div>
+      <div><h4>Resources</h4><ul class="footer-links"><li><a href="../blog.html">Blog</a></li><li><a href="alpha-auron-experience.html">Latest Article</a></li><li><a href="../contact.html">Contact</a></li></ul></div>
+      <div><h4>Contact</h4><ul class="footer-links"><li><a href="mailto:freelancerkirankumar4@gmail.com">freelancerkirankumar4@gmail.com</a></li><li><a href="tel:+917995608138">+91 79956 08138</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>©️ 2026 Mude Kiran Kumar Naik. All rights reserved.</span>
+      <span>Designed &amp; built by Kiran Kumar</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<script src="../assets/js/script.js"></script>
+</body>
+</html>
