@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Kiran Kumar Naik</title>
+<meta name="description" content="Browse projects by Kiran Kumar Naik across Python, Frontend Development and Web Security.">
+<meta property="og:title" content="Portfolio — Kiran Kumar Naik">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="brand"><span class="brand-mark">🧑🏻‍💻</span> Kiran Kumar</a>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="skills.html">Skills</a>
+      <a href="portfolio.html" class="active">Portfolio</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-ghost btn-sm">Hire Me</a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">Portfolio</div>
+    <h1>Selected work &amp; experiments.</h1>
+    <p style="margin-top:16px; max-width:600px;">A mix of Python tooling, frontend builds and security-minded projects.</p>
+    <div class="breadcrumb"><a href="index.html">Home</a> / <span class="cyan">Portfolio</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+
+    <div class="filter-row reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="python">Python</button>
+      <button class="filter-btn" data-filter="frontend">Frontend</button>
+      <button class="filter-btn" data-filter="security">Security</button>
+      <button class="filter-btn" data-filter="marketing">Marketing</button>
+    </div>
+
+
+<!-- PROJECT DETAILS MODAL -->
+<div class="modal-overlay" id="projectModal">
+  <div class="modal-box">
+    <button class="modal-close" aria-label="Close">✕</button>
+    <span class="project-cat">Project Details</span>
+    <h3 class="modal-title" style="margin-top:10px;"></h3>
+    <p class="modal-desc" style="margin-top:14px;"></p>
+    <div class="modal-meta"></div>
+    <div class="modal-actions">
+      <a href="#" target="_blank" rel="noopener" class="btn btn-ghost modal-github">GitHub</a>
+      <a href="#" target="_blank" rel="noopener" class="btn btn-primary modal-demo">Live Demo</a>
+    </div>
+  </div>
+</div>
+
+<section class="cta-band">
+  <div class="container">
+    <div class="glass reveal">
+      <div class="eyebrow" style="justify-content:center;">Like What You See?</div>
+      <h2>Let's build your next project.</h2>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-primary">Start a Project</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><span class="brand-mark">🧑🏻‍💻</span> Kiran Kumar</a>
+        <p>Python Developer, Frontend Developer &amp; Cybersecurity Enthusiast. Senior Freelancer at Alpha Auron Pvt. Ltd.</p>
+        <div class="social-row">
+          <a class="social-btn" href="https://www.instagram.com/beyond_alphaauron" target="_blank" rel="noopener">IG</a>
+          <a class="social-btn" href="https://www.facebook.com/share/17Pz9aEwZ1/" target="_blank" rel="noopener">FB</a>
+          <a class="social-btn" href="https://www.linkedin.com/in/mude-kiran-kumar-naik-605b5a3ab" target="_blank" rel="noopener">in</a>
+        </div>
+      </div>
+      <div><h4>Explore</h4><ul class="footer-links"><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="skills.html">Skills</a></li><li><a href="portfolio.html">Portfolio</a></li></ul></div>
+      <div><h4>Resources</h4><ul class="footer-links"><li><a href="blog.html">Blog</a></li><li><a href="articles/alpha-auron-experience.html">Latest Article</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Contact</h4><ul class="footer-links"><li><a href="mailto:freelancerkirankumar4@gmail.com">freelancerkirankumar4@gmail.com</a></li><li><a href="tel:+917995608138">+91 79956 08138</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>©️ 2026 Mude Kiran Kumar Naik. All rights reserved.</span>
+      <span>Designed &amp; built by Kiran Kumar</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
